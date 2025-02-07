@@ -19,7 +19,7 @@ fill(250,230,5,100);
 ellipse(750,200,300,300);
 stroke(250,230,5,50);
 fill(250,230,5,50);
-ellipse(750,200,350,350);
+
 
 //ground
 stroke(5,170,14);
@@ -120,3 +120,11 @@ fill(175,165,165);
 ellipse(335,245,1,1);
 ellipse(325,216,3,3);
 ellipse(297,235,5,5);
+
+//bird
+stroke(0,0,0);
+fill(111,189,255);
+arc(500,100,40,30,radians(200),radians(360));
+arc(540,100,40,30,radians(180),radians(340));
+arc(560,120,40,30,radians(200),radians(360));
+arc(600,120,40,30,radians(180),radians(340));
